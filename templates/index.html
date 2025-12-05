@@ -66,6 +66,19 @@
             </article>
         </section>
     </main>
+
+    <!-- ----------- Adding feedback ----------- -->
+     <section class="container" style="text-align: center; margin-top: 1.5rem;">
+        <h2>Tell us what your think</h2>
+        <p class="note">This form sends your message to the Flask server.</p>
+
+        <form id="feedback-form" style="max-width: 400px; margin: 0 auto;">
+            <textarea name="feedback" id="feedback-message" rows="3" required></textarea><br>
+            <button type="submit" class="add-btn">Send feedback</button>
+        </form>
+
+        <p id="feedback-response" class="note" style="margin-top: 0.5rem;"></p>
+     </section>
     <!-- ----------- Footer Section ----------- -->
     <footer class="site-footer">
         <div class="container">
